@@ -1,19 +1,15 @@
 {
   "scheme": "acme",
   "userInterfaceStyle": "automatic",
-  "platforms": ["ios", "android", "web"],
+  "platforms": ["ios", "android"],
   "orientation": "portrait",
   "web": {
     "output": "static"
   },
-  "plugins": [
-    [
-      "expo-router",
-      {
-        "origin": "https://n"
-      }
-    ]
-  ],
+  "ios": {
+    "supportsTablet": true
+  },
+  "plugins": ["expo-router"],
   "name": "react-native-boilerplate",
   "slug": "react-native-boilerplate"
 }

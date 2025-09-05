@@ -17,8 +17,8 @@ const ThemeToggle = () => {
     translateX.value = withSpring(
       theme === "light" ? 3.5 : theme === "dark" ? 46 : 88.5,
       {
-        damping: 15,
-        stiffness: 150,
+        dampingRatio: 1,
+        duration: 300,
       },
     );
   }, [theme, translateX]);
