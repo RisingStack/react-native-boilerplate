@@ -1,5 +1,9 @@
 import { vars } from "nativewind";
 
+/**
+ * Add new vars to tailwind.config.js
+ */
+
 export const themes = {
   light: vars({
     "--color-primary": "#000000",

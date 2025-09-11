@@ -11,7 +11,7 @@ module.exports = defineConfig([
   expoConfig,
   ...tailwindcss.configs["flat/recommended"],
   {
-    files: ["src/**/*.*"],
+    files: ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"],
     plugins: {
       "simple-import-sort": simpleImportSort,
       "unused-imports": unusedImports,
@@ -36,6 +36,7 @@ module.exports = defineConfig([
       "check-file/filename-naming-convention": [
         "error",
         { "src/!(app)/**/*.{jsx,tsx,js,ts}": "KEBAB_CASE" },
+        { ignoreMiddleExtensions: true },
       ],
     },
     settings: {

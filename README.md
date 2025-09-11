@@ -46,3 +46,8 @@ This boilerplate uses the following development tools:
 - [ESLint](https://eslint.org/): A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 - [Prettier](https://prettier.io/): An opinionated code formatter.
 - [Expo Router](https://docs.expo.dev/router/introduction/): A file-based router for React Native and web applications.
+
+## Other Usefull Tools
+
+- [React Native Reusables](https://reactnativereusables.com/): Shadcn UI for React Native.
+- [Expo UI](https://docs.expo.dev/versions/latest/sdk/ui/): A set of components that allow you to build UIs directly with SwiftUI and Jetpack Compose from React.

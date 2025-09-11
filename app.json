@@ -4,7 +4,8 @@
   "platforms": ["ios", "android"],
   "orientation": "portrait",
   "web": {
-    "output": "static"
+    "output": "static",
+    "bundler": "metro"
   },
   "ios": {
     "supportsTablet": true
